@@ -62,13 +62,6 @@ Process telemetry showed PowerShell execution closely aligned with encrypted fil
 - PowerShell processes executed within **10 seconds** of file encryption events
 - Command-line artifacts referenced the ransomware payload
 
-#### 📸 Screenshot: PowerShell Process Execution
-![PowerShell execution tied to ransomware](screenshots/process_events_powershell.png)
-
-This temporal correlation strongly indicates that the observed PowerShell execution was responsible for the encryption activity.
-
----
-
 ## 🧾 Timeline Summary
 
 | Timestamp (UTC) | Event |
@@ -77,7 +70,7 @@ This temporal correlation strongly indicates that the observed PowerShell execut
 | 2025-12-16 00:55:26 | `.pwncrypt` files created |
 
 #### 📸 Screenshot: Timeline Correlation
-![Timeline correlation between process and file events](screenshots/timeline_correlation.png)
+![Timeline correlation between process and file events](ProcessPwnCrypt.png)
 
 ---
 
